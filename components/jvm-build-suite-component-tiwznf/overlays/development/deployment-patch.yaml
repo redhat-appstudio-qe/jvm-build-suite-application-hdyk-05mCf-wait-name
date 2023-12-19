@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-tiwznf
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-qfwm-tenant/jvm-build-suite-application-hdyk/jvm-build-suite-component-tiwznf@sha256:43f9f7aafaafbca675b7163f32428778b38f53607f9ffd43390720e44b3a0074
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
